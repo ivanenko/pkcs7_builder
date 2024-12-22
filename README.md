@@ -3,7 +3,7 @@ Utility lib in dart for building and validating CMS/PKCS7 detached signatures.
 Usage example:
 ```dart
 // Test data
-String data = 'cBQCV9BfdogmhIffB4HpFyTNA8q1fsxTBJIwt1P39cU=';
+String base64data = 'cBQCV9BfdogmhIffB4HpFyTNA8q1fsxTBJIwt1P39cU=';
 String certificatePath = 'test/resource/certificate.pem';
 String privateKeyPath = 'test/resource/private_key_pkcs8.pem';
 
