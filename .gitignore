@@ -1,0 +1,10 @@
+packages
+pubspec.lock
+.project
+tags
+test/data/output/
+extension/output/
+.idea
+.pub
+.packages
+.dart_tool
