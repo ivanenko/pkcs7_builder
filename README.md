@@ -8,7 +8,7 @@ String certificatePath = 'test/resource/certificate.pem';
 String privateKeyPath = 'test/resource/private_key_pkcs8.pem';
 
 // Create an instance of PKCS7Builder
-var pkcs7Builder = PKCS7Builder(data, certificatePath, privateKeyPath);
+var pkcs7Builder = PKCS7Builder(base64data, certificatePath, privateKeyPath);
 
 // Call the create method
 Uint8List pkcs7Signature = pkcs7Builder.create();
